@@ -1,6 +1,6 @@
-__Student:__ Pleskun Ruslan
-__Group:__ CE-47
-__Subject:__ CSDT
+__Student:__ Pleskun Ruslan  
+__Group:__ CE-47  
+__Subject:__ CSDT  
 
 __Project name:__ Chrome Dragon game  
 
