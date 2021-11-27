@@ -1,0 +1,14 @@
+name: Project Tests
+on:
+  push:
+    branches:
+      - feature/pleskunruslan/develop
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install packages
+        run: npm ci
