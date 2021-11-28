@@ -4,9 +4,9 @@ on:
     branches:
       - feature/pleskunruslan/develop
 jobs:
-  tests:
-    name: Tests
-    runs-on: ubuntu-latest
+  my_test:
+    name: My_Test
+    runs-on: windows-latest
 
     steps:
       - name: Checkout code
