@@ -1,12 +1,10 @@
-name: Project Tests
+name: Project-Tests
 on:
   push:
     branches:
       - feature/pleskunruslan/develop
 jobs:
-  eslint:
-    name: Second test
-    runs-on: windows-latest
+  runs-on: windows-latest
 
     steps:
       - name: Checkout code
@@ -18,7 +16,9 @@ jobs:
         run: npm install selenium-webdriver
       - name: Install chrome driver
         run: npm install chromedriver
-#      - name: Run eslint
-#        run: npm run lint
+      - name: Install mocha
+        run: npm install mocha
+      - name: Install mochawesome
+        run: npm install mochawesome
       - name: Run Tests
-        run: node tests/tests.js
+        run: npm test
