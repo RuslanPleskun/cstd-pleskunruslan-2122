@@ -1,28 +1,23 @@
-name: Project Tests
+name: Project-Tests
 on:
   push:
     branches:
       - feature/pleskunruslan/develop
 jobs:
-  eslint:
-    name: Second test
-    runs-on: windows-latest
+  tests:
+    name: Tests
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
 
       - name: Install packages
-        run: npm ci
-      - name: Install selenium
-        run: npm install selenium-webdriver
-      - name: Install chrome driver
-        run: npm install chromedriver
-      - name: Install mocha
-        run: npm install mocha
-      - name: Install mochawesome
-        run: npm install mochawesome
-#      - name: Run eslint
-#        run: npm run lint
+        run: |
+          npm ci
+          npm install selenium-webdriver
+          npm install chromedriver
+          npm install mocha
+          npm install mochawesome
       - name: Run Tests
         run: npm test
