@@ -8,4 +8,4 @@ __Programming language:__ JavaScript
 __Actions:__ Read, Watch, Buy  
 __Run project:__ https://ruslanpleskun.github.io/cstd-pleskunruslan-2122/  
 __Release version:__ ![version](https://img.shields.io/badge/version-1.0-blue)  
-__Build Status:__ <img src="https://github.com/RuslanPleskun/cstd-pleskunruslan-2122/workflows/BuildAndTest/badge.svg">  
+__Build Status:__ <img src="https://img.shields.io/circleci/project/github/RuslanPleskun/cstd-pleskunruslan-2122/feature/pleskunruslan/develop">  
