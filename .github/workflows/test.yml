@@ -4,8 +4,8 @@ on:
     branches:
       - feature/pleskunruslan/develop
 jobs:
-  my_test:
-    name: My_Test
+  tests:
+    name: Tests
     runs-on: windows-latest
 
     steps:
