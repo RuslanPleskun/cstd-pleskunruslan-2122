@@ -4,9 +4,9 @@ on:
     branches:
       - feature/pleskunruslan/develop
 jobs:
-#  eslint:
-  name: Second test
-  runs-on: windows-latest
+  eslint:
+    name: Second test
+    runs-on: windows-latest
 
     steps:
       - name: Checkout code
