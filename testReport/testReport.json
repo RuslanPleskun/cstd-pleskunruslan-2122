@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-11-28T16:05:14.631Z",
-    "end": "2021-11-28T16:05:18.045Z",
-    "duration": 3414,
+    "start": "2021-11-28T20:37:43.017Z",
+    "end": "2021-11-28T20:37:47.777Z",
+    "duration": 4760,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "40c9f1b0-353b-4ace-8e0e-963716e474ea",
+      "uuid": "aa68f99e-200e-412b-86f1-d899106cffd1",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "d845547b-8029-45d9-8a22-9c1c568d1764",
+          "uuid": "6ea82562-b7c0-41e4-905f-82e03c80a982",
           "title": "Tests",
           "fullFile": "D:\\TPKS\\Thesis\\test\\tests.js",
           "file": "\\test\\tests.js",
@@ -35,19 +35,19 @@
           "afterHooks": [],
           "tests": [
             {
-              "title": "test",
-              "fullTitle": "Tests test",
+              "title": "first test",
+              "fullTitle": "Tests first test",
               "timedOut": null,
-              "duration": 3150,
+              "duration": 4498,
               "state": "passed",
               "speed": "slow",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
-              "code": "const driver = await new Builder().forBrowser('chrome').build();\nawait driver.get('https://www.wikipedia.org/');\nawait driver.findElement(By.id('searchInput')).sendKeys('The USA', Key.RETURN);\nawait driver.quit();",
+              "code": "const driver = await new Builder().forBrowser('chrome').build();\n//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));\nawait driver.manage().window().maximize();\nawait driver.get('file:///D:/TPKS/Thesis/index.html#order-form');\n//await driver.sleep(3000);\nawait driver.findElement(By.id('season')).click();\nawait driver.sleep(3000);\n//    await driver.findElement(By.xpath(\"//a[@href='#seasons']\")).click();\nawait driver.quit();",
               "err": {},
-              "uuid": "9270edfc-e4b4-4acc-8d5d-798af1c4da7d",
+              "uuid": "4c6c0ac9-4c6f-46dd-8454-3c0cf553c09e",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -55,12 +55,12 @@
           ],
           "suites": [],
           "passes": [
-            "9270edfc-e4b4-4acc-8d5d-798af1c4da7d"
+            "4c6c0ac9-4c6f-46dd-8454-3c0cf553c09e"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 3150,
+          "duration": 4498,
           "root": false,
           "rootEmpty": false,
           "_timeout": null

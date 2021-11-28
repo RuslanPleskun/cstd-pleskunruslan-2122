@@ -3,21 +3,16 @@ const assert = require('assert');
 const should = require('chai').should();
 
 describe('Tests', function() {
-  it('second test', async function() {
-    const driver = await new Builder().forBrowser('chrome').build();
-
-    await driver.get('https://www.wikipedia.org/');
-
-    await driver.findElement(By.id('searchInput')).sendKeys('The USA', Key.RETURN);
-
-    await driver.quit();
-  });
   it('first test', async function() {
     const driver = await new Builder().forBrowser('chrome').build();
+    //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+    await driver.manage().window().maximize();
 
-    await driver.get('https://www.wikipedia.org/');
-
-    await driver.findElement(By.id('searchInput')).sendKeys('The USA', Key.RETURN);
+    await driver.get('https://ruslanpleskun.github.io/cstd-pleskunruslan-2122/');
+    //await driver.sleep(3000);
+    await driver.findElement(By.id('season')).click();
+    await driver.sleep(3000);
+//    await driver.findElement(By.xpath("//a[@href='#seasons']")).click();
 
     await driver.quit();
   });
