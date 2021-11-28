@@ -5,9 +5,9 @@
     "passes": 2,
     "pending": 0,
     "failures": 0,
-    "start": "2021-11-28T14:24:34.071Z",
-    "end": "2021-11-28T14:24:40.812Z",
-    "duration": 6741,
+    "start": "2021-11-28T15:13:23.065Z",
+    "end": "2021-11-28T15:13:29.016Z",
+    "duration": 5951,
     "testsRegistered": 2,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "588bd8aa-8a24-407b-9a9c-8986fa793cc5",
+      "uuid": "cd7938e3-c076-435c-90f1-e7ca1e17272b",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "e9aa7888-4fa9-4b6c-ad14-66f5fe450abf",
+          "uuid": "1a235d44-fa73-44d4-a5b1-4e4a19ecb130",
           "title": "Tests",
           "fullFile": "D:\\TPKS\\Thesis\\test\\tests.js",
           "file": "\\test\\tests.js",
@@ -38,7 +38,7 @@
               "title": "first test",
               "fullTitle": "Tests first test",
               "timedOut": null,
-              "duration": 3175,
+              "duration": 2609,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,7 +47,7 @@
               "context": null,
               "code": "const driver = await new Builder().forBrowser('chrome').build();\nawait driver.get('https://www.wikipedia.org/');\nawait driver.findElement(By.id('searchInput')).sendKeys('The USA', Key.RETURN);\nawait driver.quit();",
               "err": {},
-              "uuid": "78e7f135-661a-4636-a2db-6c7c36049589",
+              "uuid": "27183386-e36f-4b9e-9b9f-1cc992c1c8c3",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -56,7 +56,7 @@
               "title": "second test",
               "fullTitle": "Tests second test",
               "timedOut": null,
-              "duration": 3314,
+              "duration": 3094,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -65,7 +65,7 @@
               "context": null,
               "code": "const driver = await new Builder().forBrowser('chrome').build();\nawait driver.get('https://www.wikipedia.org/');\nawait driver.findElement(By.id('searchInput')).sendKeys('The USA', Key.RETURN);\nawait driver.quit();",
               "err": {},
-              "uuid": "ec8905e1-a8e2-414c-8338-33cce1ac0d55",
+              "uuid": "9107e30d-860b-43f8-904a-aecc3866c8b7",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -73,13 +73,13 @@
           ],
           "suites": [],
           "passes": [
-            "78e7f135-661a-4636-a2db-6c7c36049589",
-            "ec8905e1-a8e2-414c-8338-33cce1ac0d55"
+            "27183386-e36f-4b9e-9b9f-1cc992c1c8c3",
+            "9107e30d-860b-43f8-904a-aecc3866c8b7"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 6489,
+          "duration": 5703,
           "root": false,
           "rootEmpty": false,
           "_timeout": null
