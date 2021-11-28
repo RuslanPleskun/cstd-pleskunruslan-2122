@@ -16,7 +16,7 @@ jobs:
         run: |
           npm install
           npm install selenium-webdriver
-          npm install -g chromedriver
+          npm install chromedriver
           npm install mocha
           npm install mochawesome
       - name: Run Tests
