@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-11-28T20:37:43.017Z",
-    "end": "2021-11-28T20:37:47.777Z",
-    "duration": 4760,
+    "start": "2021-11-28T21:00:54.178Z",
+    "end": "2021-11-28T21:01:00.157Z",
+    "duration": 5979,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "aa68f99e-200e-412b-86f1-d899106cffd1",
+      "uuid": "53d769fe-302e-4c29-a1dc-d07bf5104505",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "6ea82562-b7c0-41e4-905f-82e03c80a982",
+          "uuid": "ddec8c78-940a-4245-97b1-73b89dab226b",
           "title": "Tests",
           "fullFile": "D:\\TPKS\\Thesis\\test\\tests.js",
           "file": "\\test\\tests.js",
@@ -38,16 +38,16 @@
               "title": "first test",
               "fullTitle": "Tests first test",
               "timedOut": null,
-              "duration": 4498,
+              "duration": 5722,
               "state": "passed",
               "speed": "slow",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
-              "code": "const driver = await new Builder().forBrowser('chrome').build();\n//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));\nawait driver.manage().window().maximize();\nawait driver.get('file:///D:/TPKS/Thesis/index.html#order-form');\n//await driver.sleep(3000);\nawait driver.findElement(By.id('season')).click();\nawait driver.sleep(3000);\n//    await driver.findElement(By.xpath(\"//a[@href='#seasons']\")).click();\nawait driver.quit();",
+              "code": "const driver = await new Builder().forBrowser('chrome').build();\n//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));\nawait driver.manage().window().maximize();\nawait driver.get('https://ruslanpleskun.github.io/cstd-pleskunruslan-2122/');\n//await driver.sleep(3000);\nawait driver.findElement(By.id('season')).click();\nawait driver.sleep(3000);\n//    await driver.findElement(By.xpath(\"//a[@href='#seasons']\")).click();\nawait driver.quit();",
               "err": {},
-              "uuid": "4c6c0ac9-4c6f-46dd-8454-3c0cf553c09e",
+              "uuid": "48be1bb3-31b0-4d1a-b9a1-01dcc6f9bf3a",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -55,12 +55,12 @@
           ],
           "suites": [],
           "passes": [
-            "4c6c0ac9-4c6f-46dd-8454-3c0cf553c09e"
+            "48be1bb3-31b0-4d1a-b9a1-01dcc6f9bf3a"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 4498,
+          "duration": 5722,
           "root": false,
           "rootEmpty": false,
           "_timeout": null
