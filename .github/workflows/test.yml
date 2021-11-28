@@ -4,11 +4,21 @@ on:
     branches:
       - feature/pleskunruslan/develop
 jobs:
-  build:
+  eslint:
+    name: Second test
     runs-on: windows-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
 
       - name: Install packages
         run: npm ci
+      - name: Install selenium
+        run: npm install selenium-webdriver
+      - name: Install chrome driver
+        run: npm install chromedriver
+#      - name: Run eslint
+#        run: npm run lint
+      - name: Run Tests
+        run: node tests/tests.js
