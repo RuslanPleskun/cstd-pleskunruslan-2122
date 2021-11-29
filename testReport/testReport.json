@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-11-28T21:00:54.178Z",
-    "end": "2021-11-28T21:01:00.157Z",
-    "duration": 5979,
+    "start": "2021-11-29T10:21:27.686Z",
+    "end": "2021-11-29T10:21:35.389Z",
+    "duration": 7703,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "53d769fe-302e-4c29-a1dc-d07bf5104505",
+      "uuid": "fee9a1fd-e9e6-4ed5-9004-45de3e4f3169",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "ddec8c78-940a-4245-97b1-73b89dab226b",
+          "uuid": "f4a0b28d-52fc-4423-a31a-da9332a5e2f8",
           "title": "Tests",
           "fullFile": "D:\\TPKS\\Thesis\\test\\tests.js",
           "file": "\\test\\tests.js",
@@ -35,19 +35,19 @@
           "afterHooks": [],
           "tests": [
             {
-              "title": "first test",
-              "fullTitle": "Tests first test",
+              "title": "Page Navigation",
+              "fullTitle": "Tests Page Navigation",
               "timedOut": null,
-              "duration": 5722,
+              "duration": 7443,
               "state": "passed",
               "speed": "slow",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
-              "code": "const driver = await new Builder().forBrowser('chrome').build();\n//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));\nawait driver.manage().window().maximize();\nawait driver.get('https://ruslanpleskun.github.io/cstd-pleskunruslan-2122/');\n//await driver.sleep(3000);\nawait driver.findElement(By.id('season')).click();\nawait driver.sleep(3000);\n//    await driver.findElement(By.xpath(\"//a[@href='#seasons']\")).click();\nawait driver.quit();",
+              "code": "const driver = await new Builder().forBrowser('chrome').build();\n//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));\nawait driver.manage().window().maximize();\nawait driver.get('https://ruslanpleskun.github.io/cstd-pleskunruslan-2122/');\n//await driver.sleep(3000);\nawait driver.findElement(By.id('season')).click();\nawait driver.sleep(3000);\n// await driver.findElement(By.css('section:nth-of-type(6) > .order-button')).click();\n// await driver.sleep(3000);\n// await driver.findElement(By.xpath(\"//a[@href='https://rickandmorty.fandom.com/wiki/Rickipedia']\")).click();\n// await driver.sleep(3000);\n// await driver.findElement(By.css('video')).click();\n// await driver.sleep(3000);\n//    await driver.findElement(By.xpath(\"//a[@href='#seasons']\")).click();\nawait driver.quit();",
               "err": {},
-              "uuid": "48be1bb3-31b0-4d1a-b9a1-01dcc6f9bf3a",
+              "uuid": "32e57df9-d71a-488f-ade1-3a8cf8c31f10",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -55,12 +55,12 @@
           ],
           "suites": [],
           "passes": [
-            "48be1bb3-31b0-4d1a-b9a1-01dcc6f9bf3a"
+            "32e57df9-d71a-488f-ade1-3a8cf8c31f10"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 5722,
+          "duration": 7443,
           "root": false,
           "rootEmpty": false,
           "_timeout": null
