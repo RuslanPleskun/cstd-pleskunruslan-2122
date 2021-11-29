@@ -1,14 +1,14 @@
 {
   "stats": {
-    "suites": 3,
-    "tests": 3,
-    "passes": 3,
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-11-29T15:37:55.964Z",
-    "end": "2021-11-29T15:39:10.101Z",
-    "duration": 74137,
-    "testsRegistered": 3,
+    "start": "2021-11-29T15:47:46.532Z",
+    "end": "2021-11-29T15:50:12.942Z",
+    "duration": 146410,
+    "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "ab3b8259-8fbc-4424-8d2c-ee8b2dcc72d2",
+      "uuid": "fff26bee-7f91-430e-976e-364e40fe01c9",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,10 +27,10 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "9e636dc4-6e4f-4d0b-841e-2843c95062cb",
+          "uuid": "bb56fb54-d6b1-46b7-888e-93e2f6903b2b",
           "title": "Tests",
-          "fullFile": "D:\\TPKS\\Thesis\\test\\pageNavigation.js",
-          "file": "\\test\\pageNavigation.js",
+          "fullFile": "D:\\TPKS\\Thesis\\test\\tests.js",
+          "file": "\\test\\tests.js",
           "beforeHooks": [],
           "afterHooks": [],
           "tests": [
@@ -38,16 +38,16 @@
               "title": "Page Navigation",
               "fullTitle": "Tests Page Navigation",
               "timedOut": null,
-              "duration": 39181,
+              "duration": 146201,
               "state": "passed",
               "speed": "slow",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
-              "code": "const driver = await new Builder().forBrowser('chrome').build();\nawait driver.manage().window().maximize();\nawait driver.get('https://ruslanpleskun.github.io/cstd-pleskunruslan-2122/');\nawait driver.findElement(By.id('season')).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.id('homes')).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.id('character-profiles')).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.id('homes')).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.id('webshops')).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.id('homes')).click();\nawait driver.sleep(3000);\nawait driver.navigate().refresh();\nawait driver.findElement(By.id('season')).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.id('character-profiles')).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.id('webshops')).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.id('homes')).click();\nawait driver.sleep(3000);\nawait driver.navigate().refresh();\nawait driver.quit();",
+              "code": "const driver = await new Builder().forBrowser('chrome').build();\nawait driver.manage().window().maximize();\nawait driver.get('https://ruslanpleskun.github.io/cstd-pleskunruslan-2122/');\nawait driver.findElement(By.id('season')).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.id('homes')).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.id('character-profiles')).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.id('homes')).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.id('webshops')).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.id('homes')).click();\nawait driver.sleep(3000);\nawait driver.navigate().refresh();\nawait driver.findElement(By.id('season')).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.id('character-profiles')).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.id('webshops')).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.id('homes')).click();\nawait driver.sleep(3000);\nawait driver.navigate().refresh();\nawait driver.findElement(By.id('homes')).click();\nawait driver.findElement(By.id('season')).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.css(\"a[title='Rick and Morty']\")).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.navigate().refresh();\nawait driver.findElement(By.linkText('United States')).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.navigate().refresh();\nawait driver.findElement(By.xpath(\"//section[@id='seasons']/article[@class='season']//a[@title='Cartoon Network']\")).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.findElement(By.xpath(\"//section[@id='seasons']/article[@class='season']//a[@title='Adult Swim']\")).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.findElement(By.xpath(\"//section[@id='seasons']/article[@class='season']//a[@title='Pilot (Rick and Morty)']\")).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.navigate().refresh();\nawait driver.findElement(By.xpath(\"//button[@class='next']\")).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.xpath(\"//button[@class='prev']\")).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.css('video')).click();\nawait driver.sleep(10000);\nawait driver.findElement(By.css('video')).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.id('homes')).click();\nawait driver.findElement(By.id('webshops')).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.css('section:nth-of-type(1) > .order-button')).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.sleep(3000);\nawait driver.navigate().refresh();\nawait driver.findElement(By.xpath(\"//section[@id='webshop']/article/section[2]/button[@class='order-button']\")).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.findElement(By.css('section:nth-of-type(3) > .order-button')).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.sleep(3000);\nawait driver.findElement(By.xpath(\"//section[@id='webshop']/article/section[4]/button[@class='order-button']\")).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.findElement(By.css('section:nth-of-type(5) > .order-button')).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.sleep(3000);\nawait driver.navigate().refresh();\nawait driver.findElement(By.xpath(\"//section[@id='webshop']/article/section[6]/button[@class='order-button']\")).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.findElement(By.css('section:nth-of-type(7) > .order-button')).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.sleep(3000);\nawait driver.findElement(By.xpath(\"//section[@id='webshop']/article/section[8]/button[@class='order-button']\")).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.findElement(By.css('section:nth-of-type(9) > .order-button')).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.navigate().refresh();\nawait driver.sleep(3000);\nawait driver.quit();",
               "err": {},
-              "uuid": "5f9d054c-2255-4ccb-ba18-05fb92e7ffe1",
+              "uuid": "05dbf3b0-570e-4920-b8a2-525974c666c4",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -55,90 +55,12 @@
           ],
           "suites": [],
           "passes": [
-            "5f9d054c-2255-4ccb-ba18-05fb92e7ffe1"
+            "05dbf3b0-570e-4920-b8a2-525974c666c4"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 39181,
-          "root": false,
-          "rootEmpty": false,
-          "_timeout": null
-        },
-        {
-          "uuid": "bfa3ad4e-73d5-4f50-a38a-8b27ef31b95d",
-          "title": "Tests",
-          "fullFile": "D:\\TPKS\\Thesis\\test\\linksAndSlides.js",
-          "file": "\\test\\linksAndSlides.js",
-          "beforeHooks": [],
-          "afterHooks": [],
-          "tests": [
-            {
-              "title": "Links and slides",
-              "fullTitle": "Tests Links and slides",
-              "timedOut": null,
-              "duration": 49978,
-              "state": "passed",
-              "speed": "slow",
-              "pass": true,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "const driver = await new Builder().forBrowser('chrome').build();\nawait driver.manage().window().maximize();\nawait driver.get('https://ruslanpleskun.github.io/cstd-pleskunruslan-2122/');\nawait driver.findElement(By.id('season')).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.css(\"a[title='Rick and Morty']\")).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.navigate().refresh();\nawait driver.findElement(By.linkText('United States')).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.navigate().refresh();\nawait driver.findElement(By.xpath(\"//section[@id='seasons']/article[@class='season']//a[@title='Cartoon Network']\")).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.findElement(By.xpath(\"//section[@id='seasons']/article[@class='season']//a[@title='Adult Swim']\")).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.findElement(By.xpath(\"//section[@id='seasons']/article[@class='season']//a[@title='Pilot (Rick and Morty)']\")).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.navigate().refresh();\nawait driver.findElement(By.xpath(\"//button[@class='next']\")).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.xpath(\"//button[@class='prev']\")).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.css('video')).click();\nawait driver.sleep(10000);\nawait driver.findElement(By.css('video')).click();\nawait driver.sleep(3000);\nawait driver.quit();",
-              "err": {},
-              "uuid": "c808d09c-4666-4662-b989-2335eec7f7ee",
-              "parentUUID": null,
-              "isHook": false,
-              "skipped": false
-            }
-          ],
-          "suites": [],
-          "passes": [
-            "c808d09c-4666-4662-b989-2335eec7f7ee"
-          ],
-          "failures": [],
-          "pending": [],
-          "skipped": [],
-          "duration": 49978,
-          "root": false,
-          "rootEmpty": false,
-          "_timeout": null
-        },
-        {
-          "uuid": "308861e7-028a-41ac-b595-9bd12d5a15bb",
-          "title": "Tests",
-          "fullFile": "D:\\TPKS\\Thesis\\test\\buttons.js",
-          "file": "\\test\\buttons.js",
-          "beforeHooks": [],
-          "afterHooks": [],
-          "tests": [
-            {
-              "title": "Buttons",
-              "fullTitle": "Tests Buttons",
-              "timedOut": null,
-              "duration": 73881,
-              "state": "passed",
-              "speed": "slow",
-              "pass": true,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "const driver = await new Builder().forBrowser('chrome').build();\nawait driver.manage().window().maximize();\nawait driver.get('https://ruslanpleskun.github.io/cstd-pleskunruslan-2122/');\nawait driver.findElement(By.id('webshops')).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.css('section:nth-of-type(1) > .order-button')).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.sleep(3000);\nawait driver.navigate().refresh();\nawait driver.findElement(By.xpath(\"//section[@id='webshop']/article/section[2]/button[@class='order-button']\")).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.findElement(By.css('section:nth-of-type(3) > .order-button')).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.sleep(3000);\nawait driver.findElement(By.xpath(\"//section[@id='webshop']/article/section[4]/button[@class='order-button']\")).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.findElement(By.css('section:nth-of-type(5) > .order-button')).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.sleep(3000);\nawait driver.navigate().refresh();\nawait driver.findElement(By.xpath(\"//section[@id='webshop']/article/section[6]/button[@class='order-button']\")).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.findElement(By.css('section:nth-of-type(7) > .order-button')).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.sleep(3000);\nawait driver.findElement(By.xpath(\"//section[@id='webshop']/article/section[8]/button[@class='order-button']\")).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.findElement(By.css('section:nth-of-type(9) > .order-button')).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.navigate().refresh();\nawait driver.sleep(3000);\nawait driver.quit();",
-              "err": {},
-              "uuid": "318760fc-1309-4704-83e6-2ea92e9c2194",
-              "parentUUID": null,
-              "isHook": false,
-              "skipped": false
-            }
-          ],
-          "suites": [],
-          "passes": [
-            "318760fc-1309-4704-83e6-2ea92e9c2194"
-          ],
-          "failures": [],
-          "pending": [],
-          "skipped": [],
-          "duration": 73881,
+          "duration": 146201,
           "root": false,
           "rootEmpty": false,
           "_timeout": null
