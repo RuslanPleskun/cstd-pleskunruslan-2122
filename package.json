@@ -4,7 +4,7 @@
   "description": "",
   "main": "js/script.js",
   "scripts": {
-    "test": "mocha --no-timeouts --reporter mochawesome --require mochawesome/register --reporter-options reportDir=testReport,reportFilename=testReport"
+    "test": "mocha --no-timeouts --parallel --reporter mochawesome --require mochawesome/register --reporter-options reportDir=testReport,reportFilename=testReport"
   },
   "author": "",
   "license": "ISC",
