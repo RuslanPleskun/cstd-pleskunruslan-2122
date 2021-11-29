@@ -40,13 +40,13 @@ describe('Tests', function() {
     await driver.sleep(3000);
     await driver.navigate().back();
     await driver.navigate().refresh();
-    await driver.findElement(By.css("a[title='Cartoon Network']")).click();
+    await driver.findElement(By.linkText('Cartoon Network')).click();
     await driver.sleep(3000);
     await driver.navigate().back();
-    await driver.findElement(By.css("a[title='Adult Swim']")).click();
+    await driver.findElement(By.linkText('Adult Swim')).click();
     await driver.sleep(3000);
     await driver.navigate().back();
-    await driver.findElement(By.css("a[title='Pilot (Rick and Morty)']")).click();
+    await driver.findElement(By.linkText('Pilot')).click();
     await driver.sleep(3000);
     await driver.navigate().back();
     await driver.navigate().refresh();
