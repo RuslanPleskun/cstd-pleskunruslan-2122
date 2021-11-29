@@ -49,7 +49,7 @@ describe('Tests', function() {
     await driver.findElement(By.xpath("//section[@id='seasons']/article[@class='season']//a[@title='Cartoon Network']")).click();
     await driver.sleep(3000);
     await driver.navigate().back();
-    await driver.findElement(By.linkText('Adult Swim')).click();
+    await driver.findElement(By.xpath("//section[@id='seasons']/article[@class='season']//a[@title='Adult Swim']")).click();
     await driver.sleep(3000);
     await driver.navigate().back();
     await driver.findElement(By.xpath("//section[@id='seasons']/article[@class='season']//a[@title='Pilot (Rick and Morty)']")).click();
