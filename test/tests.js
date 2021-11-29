@@ -1,7 +1,7 @@
 const {Builder, By, Key} = require('selenium-webdriver');
 
 describe('Tests', function() {
-  it('Page Navigation', async function() {
+  it.only('Page Navigation', async function() {
     const driver = await new Builder().forBrowser('chrome').build();
     await driver.manage().window().maximize();
 
@@ -31,7 +31,7 @@ describe('Tests', function() {
 
     await driver.quit();
   });
-  it('Links and slides', async function() {
+  it.only('Links and slides', async function() {
     const driver = await new Builder().forBrowser('chrome').build();
     await driver.manage().window().maximize();
 
@@ -67,7 +67,7 @@ describe('Tests', function() {
 
     await driver.quit();
   });
-  it('Buttons', async function() {
+  it.only('Buttons', async function() {
     const driver = await new Builder().forBrowser('chrome').build();
     await driver.manage().window().maximize();
 
