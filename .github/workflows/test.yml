@@ -1,8 +1,9 @@
 name: BuildAndTest
 on:
   push:
-    branches:
-      - feature/pleskunruslan/develop
+    branches: [ feature/pleskunruslan/develop ]
+  pull_request:
+    branches: [ develop ]
 jobs:
   tests:
     name: Tests
@@ -14,7 +15,7 @@ jobs:
 
       - name: Install packages
         run: |
-          npm install
+          npm ci
           npm install selenium-webdriver
           npm install chromedriver
           npm install mocha
