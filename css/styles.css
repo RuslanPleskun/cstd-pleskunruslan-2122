@@ -364,7 +364,7 @@ header>nav .active>a::before {
 }
 
 .wrapper .video-list::-webkit-scrollbar-thumb {
-  background: #ff213c;
+  background: #d41c32;
   border-radius: 5px;
 }
 
@@ -402,7 +402,7 @@ header>nav .active>a::before {
   display: flex;
   align-items: center;
   gap: 15px;
-  background: #ff213c;
+  background: #d41c32;
   /*#f7f7f7;*/
   border-radius: 5px;
   margin: 10px;
@@ -431,7 +431,7 @@ header>nav .active>a::before {
 } */
 /* -------------------------------------------------- */
 .wrapper .video-list .vid:hover {
-  background: #eee;
+  background: #2980b9;
 }
 
 .wrapper .video-list .vid.active {
@@ -633,7 +633,7 @@ header>nav .active>a::before {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #c8dd5d;
+  background: #d41c32;
   border-radius: 10px;
 }
 
