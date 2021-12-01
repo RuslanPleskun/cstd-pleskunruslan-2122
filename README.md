@@ -8,7 +8,7 @@ __Programming language:__ JavaScript
 __Actions:__ Read, Watch, Buy  
 __Run project:__ https://ruslanpleskun.github.io/cstd-pleskunruslan-2122/  
 __Run tests:__ `npm test`  
-__GIT TAG:__ `StreamingService_v1.1_14_21143`  
+__GIT TAG:__ `StreamingService_v1p1_WW21483`  
 __User Guide:__  open file `user-guide.txt`  
 __Test report:__  open folder *testReport* and the file `testReport.html`  
 __What's new:__  
