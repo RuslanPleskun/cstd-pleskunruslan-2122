@@ -1,4 +1,4 @@
-name: BuildAndTest
+name: Tests
 on:
   push:
     branches: [ feature/pleskunruslan/develop ]
