@@ -2,8 +2,6 @@ name: Tests
 on:
   push:
     branches: [ feature/pleskunruslan/develop ]
-  pull_request:
-    branches: [ develop ]
 jobs:
   tests:
     name: Tests
@@ -20,5 +18,6 @@ jobs:
           npm install -g chromedriver
           npm install mocha
           npm install mochawesome
+          npm i express ejs express-session express-validator bcryptjs mysql2
       - name: Run Tests
         run: npm test
