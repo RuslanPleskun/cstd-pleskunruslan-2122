@@ -1,0 +1,19 @@
+<%- include('header',{
+    title:'Rick and Morty'
+}); -%>
+
+<div class="container">
+    <h1>Login</h1>
+    <form action="" method="POST">
+        <label for="user_email"></label>
+        <input type="email" class="input" name="_email" id="user_email" placeholder="Enter your email">
+        <label for="user_pass"></label>
+        <input type="password" class="input" name="_password" id="user_pass" placeholder="Enter your password">
+        <% if(typeof error !== 'undefined'){ %>
+        <div class="err-msg"><%= error %></div><% } %>
+        <input type="submit" value="Log in">
+        <div class="link"><a href="./signup">Sign Up</a></div>
+    </form>
+</div>
+
+<%- include('footer'); -%>

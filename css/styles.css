@@ -162,6 +162,15 @@ header>nav>ul>li:hover>a {
   color: #ff213c;
 }
 
+#lout {
+  padding: 20px;
+  font-size: 1.2em;
+}
+
+#lout:hover {
+  color: white;
+}
+
 header>nav .active>a::before {
   -webkit-transform: scale3d(1, 1, 1);
   transform: scale3d(1, 1, 1);

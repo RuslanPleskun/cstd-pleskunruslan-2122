@@ -20,5 +20,7 @@ jobs:
           npm install -g chromedriver
           npm install mocha
           npm install mochawesome
+          npm i express ejs express-session express-validator bcryptjs mysql2
       - name: Run Tests
+        run: npm start
         run: npm test
