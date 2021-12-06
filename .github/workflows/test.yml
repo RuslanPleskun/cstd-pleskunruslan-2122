@@ -22,5 +22,6 @@ jobs:
           npm install mochawesome
           npm i express ejs express-session express-validator bcryptjs mysql2
       - name: Run Tests
-        run: npm start
-        run: npm test
+        run: |
+          npm start
+          npm test
