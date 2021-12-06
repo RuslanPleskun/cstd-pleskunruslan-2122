@@ -2,8 +2,6 @@ name: Tests
 on:
   push:
     branches: [ feature/pleskunruslan/develop ]
-  pull_request:
-    branches: [ develop ]
 jobs:
   tests:
     name: Tests
@@ -22,6 +20,4 @@ jobs:
           npm install mochawesome
           npm i express ejs express-session express-validator bcryptjs mysql2
       - name: Run Tests
-        run: |
-          npm start
-          npm test
+        run: npm test
