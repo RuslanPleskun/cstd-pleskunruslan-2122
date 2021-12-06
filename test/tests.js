@@ -8,7 +8,6 @@ describe('Tests', function() {
     // await driver.sleep(3000);
     await driver.get('http://localhost:3000/login');
     await driver.sleep(3000);
-    console.log("Start URL: " + driver.getCurrentUrl());
     await driver.findElement(By.id('user_email')).sendKeys('ewdef@gmail.com');
     await driver.sleep(3000);
     await driver.findElement(By.id('user_pass')).sendKeys('fbjibfoibgbewvkjv');
@@ -212,9 +211,7 @@ describe('Tests', function() {
     await driver.navigate().back();
     await driver.navigate().refresh();
     await driver.sleep(3000);
-    // await driver.findElement(By.id('lout')).click();
-    // await driver.sleep(3000);
-    console.log("End URL: " + driver.getCurrentUrl());
+    await driver.findElement(By.id('lout')).click();
     await driver.sleep(3000);
 
     await driver.quit();
