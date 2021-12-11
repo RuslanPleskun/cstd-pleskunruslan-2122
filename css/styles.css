@@ -479,6 +479,54 @@ header>nav .active>a::before {
   }
 }
 
+@media (max-width:1300px) {
+  .wrapper .video-list {
+    height: 347px;
+  }
+
+  #watch {
+    height: 350px;
+  }
+
+  .wrapper .video-list .vid .title {
+    margin: 0;
+  }
+
+  .wrapper .video-list .vid video {
+    width: 80px;
+  }
+
+  h3 .title {
+    text-align: justify;
+  }
+}
+
+@media (max-width:1000px) {
+  .wrapper {
+    gap: 5px;
+  }
+
+  .wrapper .video-list {
+    height: 265px;
+  }
+
+  #watch {
+    height: 270px;
+  }
+
+  .wrapper .video-list .vid .title {
+    margin: 3px -10px;
+  }
+
+  .wrapper .video-list .vid video {
+    width: 0px;
+  }
+
+  h3 .title {
+    text-align: justify;
+  }
+}
+
 @media (max-width:768px) {
   .wrapper {
     /*---------------------------------------------------------------*/
