@@ -1,98 +1,102 @@
 const {Builder, By, Key} = require('selenium-webdriver');
 
 describe('Tests', function() {
-  it('All Tests', async function() {
+  // it('Login Page', async function() {
+  //   const driver = await new Builder().forBrowser('chrome').build();
+  //   await driver.manage().window().maximize();
+  //   await driver.get('http://localhost:3000/login');
+  //   await driver.sleep(3000);
+  //   await driver.findElement(By.id('user_email')).sendKeys('ewdef@gmail.com');
+  //   await driver.sleep(3000);
+  //   await driver.findElement(By.id('user_pass')).sendKeys('fbjibfoibgbewvkjv');
+  //   await driver.sleep(3000);
+  //   await driver.findElement(By.css("form[method='post'] > input[value='Log in']")).click();
+  //   await driver.sleep(3000);
+  //   try{
+  //     let text = await driver.findElement(By.css("div.err-msg")).getText();
+  //   }
+  //   catch{
+  //     console.log("No such email error message found");
+  //   }
+  //   await driver.sleep(3000);
+  //   await driver.findElement(By.id('user_email')).sendKeys('ewdef@gmail.com');
+  //   await driver.sleep(3000);
+  //   await driver.findElement(By.id('user_pass')).sendKeys('fbjibfo');
+  //   await driver.sleep(3000);
+  //   await driver.findElement(By.css("form[method='post'] > input[value='Log in']")).click();
+  //   await driver.sleep(3000);
+  //   try{
+  //     let text = await driver.findElement(By.css("div.err-msg")).getText();
+  //   }
+  //   catch{
+  //     console.log("No such password length error message found");
+  //   }
+  //   await driver.sleep(3000);
+  //   await driver.findElement(By.xpath("//body//form//a[@href='./signup']")).click();
+  //   await driver.sleep(3000);
+  //   await driver.findElement(By.id('user_name')).sendKeys('bt');
+  //   await driver.sleep(3000);
+  //   await driver.findElement(By.id('user_email')).sendKeys('mail@gmail.com');
+  //   await driver.sleep(3000);
+  //   await driver.findElement(By.id('user_pass')).sendKeys('qwerty123');
+  //   await driver.sleep(3000);
+  //   await driver.findElement(By.css("input[type=submit]")).click();
+  //   try{
+  //     let text = await driver.findElement(By.css("div.err-msg")).getText();
+  //   }
+  //   catch{
+  //     console.log("No such name length error message found");
+  //   }
+  //   await driver.sleep(3000);
+  //   await driver.findElement(By.id('user_name')).sendKeys('use');
+  //   await driver.sleep(3000);
+  //   await driver.findElement(By.id('user_email')).sendKeys('fdefvevddv');
+  //   await driver.sleep(3000);
+  //   await driver.findElement(By.id('user_pass')).sendKeys('qwerty123');
+  //   await driver.sleep(3000);
+  //   await driver.findElement(By.css("input[type=submit]")).click();
+  //   try{
+  //     let text = await driver.findElement(By.css("div.success-msg")).getText();
+  //   }
+  //   catch{
+  //     console.log("Email error message found");
+  //   }
+  //   await driver.sleep(3000);
+  //   await driver.findElement(By.id('user_name')).clear();
+  //   await driver.findElement(By.id('user_email')).clear();
+  //   await driver.findElement(By.id('user_pass')).clear();
+  //   await driver.sleep(3000);
+  //   await driver.findElement(By.id('user_name')).sendKeys('useuser3');
+  //   await driver.sleep(3000);
+  //   await driver.findElement(By.id('user_email')).sendKeys('fdefvevddvuser3@gmail.com');
+  //   await driver.sleep(3000);
+  //   await driver.findElement(By.id('user_pass')).sendKeys('qwerty123qwerty123');
+  //   await driver.sleep(3000);
+  //   await driver.findElement(By.css("input[type=submit]")).click();
+  //   try{
+  //     let text = await driver.findElement(By.css("div.err-msg")).getText();
+  //   }
+  //   catch{
+  //     console.log("No success email already in use message found");
+  //   }
+  //   await driver.sleep(3000);
+  //   await driver.findElement(By.xpath("//body//form//a[@href='./login']")).click();
+  //   await driver.sleep(3000);
+  //   await driver.sleep(3000);
+  //   await driver.findElement(By.id('user_email')).sendKeys('test@gmail.com');
+  //   await driver.sleep(3000);
+  //   await driver.findElement(By.id('user_pass')).sendKeys('qwerty123');
+  //   await driver.sleep(3000);
+  //   await driver.findElement(By.css("form[method='post'] > input[value='Log in']")).click();
+  //   await driver.sleep(3000);
+  //   await driver.findElement(By.id('lout')).click();
+  //   await driver.sleep(3000);
+  //
+  //   await driver.quit();
+  //   });
+  it('Main Page', async function() {
     const driver = await new Builder().forBrowser('chrome').build();
     await driver.manage().window().maximize();
-
-    // // await driver.sleep(3000);
-    // await driver.get('http://localhost:3000/login');
-    // await driver.sleep(3000);
-    // await driver.findElement(By.id('user_email')).sendKeys('ewdef@gmail.com');
-    // await driver.sleep(3000);
-    // await driver.findElement(By.id('user_pass')).sendKeys('fbjibfoibgbewvkjv');
-    // await driver.sleep(3000);
-    // await driver.findElement(By.css("form[method='post'] > input[value='Login']")).click();
-    // await driver.sleep(3000);
-    // try{
-    //   let text = await driver.findElement(By.css("div.err-msg")).getText();
-    // }
-    // catch{
-    //   console.log("No such email error message found");
-    // }
-    // await driver.sleep(3000);
-    // await driver.findElement(By.id('user_email')).sendKeys('ewdef@gmail.com');
-    // await driver.sleep(3000);
-    // await driver.findElement(By.id('user_pass')).sendKeys('fbjibfo');
-    // await driver.sleep(3000);
-    // await driver.findElement(By.css("form[method='post'] > input[value='Login']")).click();
-    // await driver.sleep(3000);
-    // try{
-    //   let text = await driver.findElement(By.css("div.err-msg")).getText();
-    // }
-    // catch{
-    //   console.log("No such password length error message found");
-    // }
-    // await driver.sleep(3000);
-    // await driver.findElement(By.xpath("//body//form//a[@href='./signup']")).click();
-    // await driver.sleep(3000);
-    // await driver.findElement(By.id('user_name')).sendKeys('bt');
-    // await driver.sleep(3000);
-    // await driver.findElement(By.id('user_email')).sendKeys('mail@gmail.com');
-    // await driver.sleep(3000);
-    // await driver.findElement(By.id('user_pass')).sendKeys('qwerty123');
-    // await driver.sleep(3000);
-    // await driver.findElement(By.css("input[type=submit]")).click();
-    // try{
-    //   let text = await driver.findElement(By.css("div.err-msg")).getText();
-    // }
-    // catch{
-    //   console.log("No such name length error message found");
-    // }
-    // await driver.sleep(3000);
-    // await driver.findElement(By.id('user_name')).sendKeys('use');
-    // await driver.sleep(3000);
-    // await driver.findElement(By.id('user_email')).sendKeys('fdefvevddv');
-    // await driver.sleep(3000);
-    // await driver.findElement(By.id('user_pass')).sendKeys('qwerty123');
-    // await driver.sleep(3000);
-    // await driver.findElement(By.css("input[type=submit]")).click();
-    // try{
-    //   let text = await driver.findElement(By.css("div.success-msg")).getText();
-    // }
-    // catch{
-    //   console.log("Email error message found");
-    // }
-    // await driver.sleep(3000);
-    // await driver.findElement(By.id('user_name')).clear();
-    // await driver.findElement(By.id('user_email')).clear();
-    // await driver.findElement(By.id('user_pass')).clear();
-    // await driver.sleep(3000);
-    // await driver.findElement(By.id('user_name')).sendKeys('useuser3');
-    // await driver.sleep(3000);
-    // await driver.findElement(By.id('user_email')).sendKeys('fdefvevddvuser3@gmail.com');
-    // await driver.sleep(3000);
-    // await driver.findElement(By.id('user_pass')).sendKeys('qwerty123qwerty123');
-    // await driver.sleep(3000);
-    // await driver.findElement(By.css("input[type=submit]")).click();
-    // try{
-    //   let text = await driver.findElement(By.css("div.err-msg")).getText();
-    // }
-    // catch{
-    //   console.log("No success email already in use message found");
-    // }
-    // await driver.sleep(3000);
-    // await driver.findElement(By.xpath("//body//form//a[@href='./login']")).click();
-    // await driver.sleep(3000);
-    // await driver.sleep(3000);
-    // await driver.findElement(By.id('user_email')).sendKeys('test@gmail.com');
-    // await driver.sleep(3000);
-    // await driver.findElement(By.id('user_pass')).sendKeys('qwerty123');
-    // await driver.sleep(3000);
-    // await driver.findElement(By.css("form[method='post'] > input[value='Login']")).click();
-    // await driver.sleep(3000);
-
-
 
     await driver.get('https://ruslanpleskun.github.io/cstd-pleskunruslan-2122/');
     await driver.findElement(By.id('season')).click();
@@ -212,8 +216,6 @@ describe('Tests', function() {
     await driver.navigate().back();
     await driver.navigate().refresh();
     await driver.sleep(3000);
-    // await driver.findElement(By.id('lout')).click();
-    // await driver.sleep(3000);
 
     await driver.quit();
   });
