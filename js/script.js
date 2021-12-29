@@ -215,7 +215,7 @@ EpSlider = 1;
 prevEpSlider = EpSlider;
 function nextEp() {
   EpSlider += 1;
-  if (EpSlider >= 3) {
+  if (EpSlider >= 12) {
     EpSlider = 1;
   }
   getElementById('ep' + EpSlider).style.opacity = 1;
@@ -227,12 +227,19 @@ function nextEp() {
 }
 
 function prevEp() {
-  prevSlide = slideCounter;
-  slideCounter -= 1;
-  moveSlide(1);
+  EpSlider -= 1;
+  if (EpSlider < 1) {
+    EpSlider = 11;
+  }
+  getElementById('ep' + EpSlider).style.opacity = 1;
+  getElementById('ep' + prevEpSlider).style.opacity = 0;
+
+  getElementById('episode-number').innerHTML = 'No. #' + EpSlider;
+
+  prevEpSlider = EpSlider;
 }
 MIN_SlIDES = 1;
-MAX_SLIDES = 2;
+MAX_SLIDES = 11;
 function next() {
   clearInterval(autoSlider);
   slideCounter += 1;

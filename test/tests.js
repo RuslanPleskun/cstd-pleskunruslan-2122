@@ -117,6 +117,7 @@ describe('Tests', function() {
     await driver.findElement(By.id('homes')).click();
     await driver.sleep(3000);
     await driver.navigate().refresh();
+    await driver.sleep(3000);
 
     await driver.findElement(By.id('homes')).click();
     await driver.findElement(By.id('season')).click();
