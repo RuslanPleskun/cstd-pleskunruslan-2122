@@ -68,11 +68,6 @@
   #character-profile>.character>.character-bio {
     padding: 20px;
   }
-
-  .wrapper .video-list {
-    margin-top: 5px;
-    height: 233px;
-  }
 }
 
 @media only screen and (max-width: 760px) {
@@ -256,16 +251,6 @@
 
   .controls {
     bottom: 56%;
-  }
-
-  .wrapper {
-    /*---------------------------------------------------------------*/
-    grid-template-columns: 1fr;
-  }
-
-  .wrapper .video-list {
-    margin-top: 10px;
-    height: 70px;
   }
 
   #webshop .shop .shop-item {

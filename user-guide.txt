@@ -1,7 +1,7 @@
 This product represents a streaming service that allows users to watch the famous American sitcom "Rick and Morty", discover something new about it and, of course, buy souvenirs related to this sitcom.
 At the top of the page users can read a short description of the project 'Rick and Morty'. 
 Scroll down a bit you will be able to read a detailed summary and description of some of the episodes.
-Next to the "Episodes" section is the main part of the project - all sitcom series and you can select any part of season 1 (other seasons will be added later).
-The next section is "Character Profiles" where users can read a small description of the sitcom cast. There are 5 of them: Rick Sanchez, Morty Smith, Jerry Smith, Beth Smith, and Summer Smith.
+Next to the 'Episodes' section is the main part of the project - all sitcom series and you can select any part of season 1 (other seasons will be added later).
+The next section is 'Main Characters' where users can read a small description of the sitcom cast. There are 5 of them: Rick Sanchez, Morty Smith, Jerry Smith, Beth Smith, and Summer Smith.
 The last 'Shop' section is an online shop (Amazon) for buying different figures of each character.
 In addition to that, you can open Rikipedia by following the link at the bottom of the page to read more about this project.
