@@ -3,12 +3,9 @@ const session = require('express-session');
 const path = require('path');
 const routes = require('./routes');
 const app = express();
-var favicon = require('serve-favicon');
-
-app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 
 app.set('views', path.join(__dirname, 'start'));
-app.set('view engine', 'ejs');
+app.set('view engine', 'ejs', 'html');
 
 app.use(express.urlencoded({ extended: false }));
 app.use(session({
