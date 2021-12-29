@@ -7,7 +7,7 @@ exports.homePage = async (req, res, next) => {
     const [row] = await dbConnection.execute("SELECT * FROM `users` WHERE `id`=?", [req.session.userID]);
 
     if (row.length !== 1) {
-        return res.redirect('./logout');
+        return res.redirect('/logout');
     }
 
     res.redirect(301, "https://ruslanpleskun.github.io/cstd-pleskunruslan-2122/");

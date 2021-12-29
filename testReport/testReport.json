@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-12-06T20:03:04.803Z",
-    "end": "2021-12-06T20:06:46.590Z",
-    "duration": 221787,
+    "start": "2021-12-09T07:45:23.016Z",
+    "end": "2021-12-09T07:49:10.437Z",
+    "duration": 227421,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "05fe6356-7a25-4fe1-9d87-70857ecd0e76",
+      "uuid": "22957868-2a66-4db0-9e08-780820eb1201",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "8f458ea8-5be7-4d7c-b640-116a32d7f050",
+          "uuid": "49155eed-7b25-44e9-9b4e-e5152010ca40",
           "title": "Tests",
           "fullFile": "D:\\TPKS\\Thesis\\test\\tests.js",
           "file": "\\test\\tests.js",
@@ -38,7 +38,7 @@
               "title": "All Tests",
               "fullTitle": "Tests All Tests",
               "timedOut": null,
-              "duration": 221515,
+              "duration": 227113,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,7 +47,7 @@
               "context": null,
               "code": "const driver = await new Builder().forBrowser('chrome').build();\nawait driver.manage().window().maximize();\n// // await driver.sleep(3000);\n// await driver.get('http://localhost:3000/login');\n// await driver.sleep(3000);\n// await driver.findElement(By.id('user_email')).sendKeys('ewdef@gmail.com');\n// await driver.sleep(3000);\n// await driver.findElement(By.id('user_pass')).sendKeys('fbjibfoibgbewvkjv');\n// await driver.sleep(3000);\n// await driver.findElement(By.css(\"form[method='post'] > input[value='Login']\")).click();\n// await driver.sleep(3000);\n// try{\n//   let text = await driver.findElement(By.css(\"div.err-msg\")).getText();\n// }\n// catch{\n//   console.log(\"No such email error message found\");\n// }\n// await driver.sleep(3000);\n// await driver.findElement(By.id('user_email')).sendKeys('ewdef@gmail.com');\n// await driver.sleep(3000);\n// await driver.findElement(By.id('user_pass')).sendKeys('fbjibfo');\n// await driver.sleep(3000);\n// await driver.findElement(By.css(\"form[method='post'] > input[value='Login']\")).click();\n// await driver.sleep(3000);\n// try{\n//   let text = await driver.findElement(By.css(\"div.err-msg\")).getText();\n// }\n// catch{\n//   console.log(\"No such password length error message found\");\n// }\n// await driver.sleep(3000);\n// await driver.findElement(By.xpath(\"//body//form//a[@href='./signup']\")).click();\n// await driver.sleep(3000);\n// await driver.findElement(By.id('user_name')).sendKeys('bt');\n// await driver.sleep(3000);\n// await driver.findElement(By.id('user_email')).sendKeys('mail@gmail.com');\n// await driver.sleep(3000);\n// await driver.findElement(By.id('user_pass')).sendKeys('qwerty123');\n// await driver.sleep(3000);\n// await driver.findElement(By.css(\"input[type=submit]\")).click();\n// try{\n//   let text = await driver.findElement(By.css(\"div.err-msg\")).getText();\n// }\n// catch{\n//   console.log(\"No such name length error message found\");\n// }\n// await driver.sleep(3000);\n// await driver.findElement(By.id('user_name')).sendKeys('use');\n// await driver.sleep(3000);\n// await driver.findElement(By.id('user_email')).sendKeys('fdefvevddv');\n// await driver.sleep(3000);\n// await driver.findElement(By.id('user_pass')).sendKeys('qwerty123');\n// await driver.sleep(3000);\n// await driver.findElement(By.css(\"input[type=submit]\")).click();\n// try{\n//   let text = await driver.findElement(By.css(\"div.success-msg\")).getText();\n// }\n// catch{\n//   console.log(\"Email error message found\");\n// }\n// await driver.sleep(3000);\n// await driver.findElement(By.id('user_name')).clear();\n// await driver.findElement(By.id('user_email')).clear();\n// await driver.findElement(By.id('user_pass')).clear();\n// await driver.sleep(3000);\n// await driver.findElement(By.id('user_name')).sendKeys('useuser3');\n// await driver.sleep(3000);\n// await driver.findElement(By.id('user_email')).sendKeys('fdefvevddvuser3@gmail.com');\n// await driver.sleep(3000);\n// await driver.findElement(By.id('user_pass')).sendKeys('qwerty123qwerty123');\n// await driver.sleep(3000);\n// await driver.findElement(By.css(\"input[type=submit]\")).click();\n// try{\n//   let text = await driver.findElement(By.css(\"div.err-msg\")).getText();\n// }\n// catch{\n//   console.log(\"No success email already in use message found\");\n// }\n// await driver.sleep(3000);\n// await driver.findElement(By.xpath(\"//body//form//a[@href='./login']\")).click();\n// await driver.sleep(3000);\n// await driver.sleep(3000);\n// await driver.findElement(By.id('user_email')).sendKeys('test@gmail.com');\n// await driver.sleep(3000);\n// await driver.findElement(By.id('user_pass')).sendKeys('qwerty123');\n// await driver.sleep(3000);\n// await driver.findElement(By.css(\"form[method='post'] > input[value='Login']\")).click();\n// await driver.sleep(3000);\n\n\nawait driver.get('https://ruslanpleskun.github.io/cstd-pleskunruslan-2122/');\nawait driver.findElement(By.id('season')).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.id('homes')).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.id('character-profiles')).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.id('homes')).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.id('webshops')).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.id('homes')).click();\nawait driver.sleep(3000);\nawait driver.navigate().refresh();\nawait driver.findElement(By.id('season')).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.id('character-profiles')).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.id('webshops')).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.id('homes')).click();\nawait driver.sleep(3000);\nawait driver.navigate().refresh();\nawait driver.findElement(By.id('homes')).click();\nawait driver.findElement(By.id('season')).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.css(\"a[title='Rick and Morty']\")).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.navigate().refresh();\nawait driver.findElement(By.linkText('United States')).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.navigate().refresh();\nawait driver.findElement(By.linkText('Cartoon Network')).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.findElement(By.linkText('Adult Swim')).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.findElement(By.linkText('Pilot')).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.navigate().refresh();\nawait driver.findElement(By.css(\".next\")).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.css(\".prev\")).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.css('video')).click();\nawait driver.sleep(10000);\nawait driver.findElement(By.css('video')).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.xpath(\"//div[@class='video-list']//video[contains(@src,'vid-3.mp4')]\")).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.css('video')).click();\nawait driver.sleep(5000);\nawait driver.findElement(By.xpath(\"//div[@class='video-list']//video[contains(@src,'vid-2.mp4')]\")).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.css('video')).click();\nawait driver.sleep(5000);\nawait driver.findElement(By.xpath(\"//div[@class='video-list']//video[contains(@src,'vid-4.mp4')]\")).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.css('video')).click();\nawait driver.sleep(5000);\nawait driver.findElement(By.xpath(\"//div[@class='video-list']//video[contains(@src,'vid-11.mp4')]\")).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.css('video')).click();\nawait driver.sleep(5000);\nawait driver.findElement(By.xpath(\"//div[@class='video-list']//video[contains(@src,'vid-8.mp4')]\")).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.css('video')).click();\nawait driver.sleep(5000);\nawait driver.findElement(By.xpath(\"//div[@class='video-list']//video[contains(@src,'vid-5.mp4')]\")).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.css('video')).click();\nawait driver.sleep(5000);\nawait driver.findElement(By.css('video')).click();\nawait driver.findElement(By.id('homes')).click();\nawait driver.findElement(By.id('webshops')).click();\nawait driver.sleep(3000);\nawait driver.findElement(By.css('section:nth-of-type(1) > .order-button')).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.sleep(3000);\nawait driver.navigate().refresh();\nawait driver.findElement(By.css(\"section:nth-of-type(2) > .order-button\")).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.findElement(By.css('section:nth-of-type(3) > .order-button')).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.sleep(3000);\nawait driver.findElement(By.css(\"section:nth-of-type(4) > .order-button\")).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.findElement(By.css('section:nth-of-type(5) > .order-button')).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.sleep(3000);\nawait driver.navigate().refresh();\nawait driver.findElement(By.css(\"section:nth-of-type(6) > .order-button\")).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.findElement(By.css('section:nth-of-type(7) > .order-button')).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.sleep(3000);\nawait driver.findElement(By.css(\"section:nth-of-type(8) > .order-button\")).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.findElement(By.css('section:nth-of-type(9) > .order-button')).click();\nawait driver.sleep(3000);\nawait driver.navigate().back();\nawait driver.navigate().refresh();\nawait driver.sleep(3000);\n// await driver.findElement(By.id('lout')).click();\n// await driver.sleep(3000);\nawait driver.quit();",
               "err": {},
-              "uuid": "f867e2a7-2bc2-4421-aa20-ddc3f7ca9876",
+              "uuid": "1ec5281e-5673-4f43-992f-e8bec325e0c5",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -55,12 +55,12 @@
           ],
           "suites": [],
           "passes": [
-            "f867e2a7-2bc2-4421-aa20-ddc3f7ca9876"
+            "1ec5281e-5673-4f43-992f-e8bec325e0c5"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 221515,
+          "duration": 227113,
           "root": false,
           "rootEmpty": false,
           "_timeout": null
