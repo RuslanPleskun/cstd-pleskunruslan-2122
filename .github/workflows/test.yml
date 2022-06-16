@@ -1,0 +1,23 @@
+name: Tests
+on:
+  push:
+    branches: [ feature/pleskunruslan/develop ]
+jobs:
+  tests:
+    name: Tests
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install packages
+        run: |
+          npm ci
+          npm install selenium-webdriver
+          npm install -g chromedriver
+          npm install mocha
+          npm install mochawesome
+          npm i express ejs express-session express-validator bcryptjs mysql2
+      - name: Run Tests
+        run: npm test

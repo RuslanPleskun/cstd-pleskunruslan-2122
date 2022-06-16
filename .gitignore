@@ -65,9 +65,6 @@ workspace.xml
 
 # Multi Modules Project
 /**/.externalToolBuilders/
-/**/.github
-/**/img
-/**/login
 /**/.settings/
 /**/.allure/
 /**/target/
@@ -111,13 +108,13 @@ workspace.xml
 *.stackdump
 
 # Ignore Picture
-*.bmp
-*.png
-*.jpg
-*.jpeg
+#*.bmp
+#*.png
+#*.jpg
+#*.jpeg
 
 # Ignore Video
-*.mp4
+#*.mp4
 
 # Ignore doc/notes.txt, but not doc/info/arch.txt
 # doc/*.txt
