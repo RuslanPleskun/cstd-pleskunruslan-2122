@@ -66,6 +66,8 @@ workspace.xml
 # Multi Modules Project
 /**/.externalToolBuilders/
 /**/.github
+/**/img
+/**/login
 /**/.settings/
 /**/.allure/
 /**/target/
