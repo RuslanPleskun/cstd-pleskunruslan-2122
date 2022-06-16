@@ -28,6 +28,7 @@ hs_err_pid*
 # Config Files
 *.ini
 .DS_Store
+*.json
 
 # Binary Files
 *.dat
@@ -64,6 +65,7 @@ workspace.xml
 
 # Multi Modules Project
 /**/.externalToolBuilders/
+/**/.github
 /**/.settings/
 /**/.allure/
 /**/target/
