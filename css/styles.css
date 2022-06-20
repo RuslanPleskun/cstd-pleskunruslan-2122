@@ -404,6 +404,11 @@ header>nav .active>a::before {
   background: #2980b9;
 }
 
+.sold-out {
+  background-color: #FFC3C3;
+  border-color: #FFC3C3;
+}
+
 .wrapper .video-list .vid iframe
 
 /*video*/
