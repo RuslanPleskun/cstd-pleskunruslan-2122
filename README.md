@@ -16,5 +16,5 @@ __What's new:__
 - Updated prices in the shop section  
 - Updated tests  
 
-__Release version:__ ![version](https://img.shields.io/badge/version-2.3-blue)  
+__Release version:__ ![version](https://img.shields.io/badge/version-2.4-blue)  
 __Build Status:__ [![Tests](https://github.com/RuslanPleskun/cstd-pleskunruslan-2122/actions/workflows/test.yml/badge.svg?branch=feature%2Fpleskunruslan%2Fdevelop&event=push)](https://github.com/RuslanPleskun/cstd-pleskunruslan-2122/actions/workflows/test.yml)  
