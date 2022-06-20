@@ -112,6 +112,7 @@ workspace.xml
 #*.png
 #*.jpg
 #*.jpeg
+*.mp4
 
 # Ignore Video
 #*.mp4
